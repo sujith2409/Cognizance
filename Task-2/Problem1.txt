@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer n, x
+    
+    Output "Enter the number"
+    Input n
+    Assign x = 0
+    While x<n
+        Assign x = x+3
+    End
+    If x=n
+        Output "True"
+    False:
+        Output "False"
+    End
+End

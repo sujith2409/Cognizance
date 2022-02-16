@@ -1,0 +1,17 @@
+Function Main
+    Declare Integer n, a, b, c, x
+    
+    Assign a = 0
+    Assign b = 1
+    Assign c = 0
+    Output "Enter the value of n"
+    Input n
+    While c<n
+        Assign x = a+b
+        Assign a = b
+        Assign b = x
+        Assign c = c+1
+    End
+    Output "The corresponding n th value is"
+    Output a
+End
